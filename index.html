@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href='index.css'>
+
+</head>
+<body>
+    <!-- Menu de navegacao (navmenu)  -->
+    <nav class="nav">
+        <div class="container">
+            <div class="titulosite">
+                <h1><a href="#top">Minato</a></h1>
+            </div>
+            <ul class="menu">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seocao de destaque do site / Primeira tela (Spotlight)  -->
+    <section class="section-spotlight">
+        <div class="container">
+            <img src="images/imagem-destaque/DemonNice.png" alt="Demonnice by Minato!" title="Demonnice by Minato!">
+        </div>
+    </section>
+
+    <!-- Seocao do portfolio (MyPortfolio)  -->
+    <a class="anchor" id="portfolio"></a>
+    <section class="section-portfolio">
+        <h3 class="titulo-section">Meu Portfolio</h3>
+        <span class="separador">━━━━━━ ★ ━━━━━━</span>
+        <h4 class="titulo-conteudo">Projetos</h4>
+        <span class="desc">
+            Links para meu GitHub, meu DeviantArt e meu Instagram, onde desenvolvo projetos, posto desenhos e
+            edições que faço por hobby
+        </span>
+        <div class="container">
+            <div class="redestrabalhos">
+                <a class="linkext-portfolio" href="https://github.com/xarutoloko10" target="_blank">
+                    <img src="images/objetos-portfolio/githubcomicone.png" alt="github" title="GitHub by Minato">
+                </a>
+                <a class="linkext-portfolio" href="https://www.deviantart.com/xarutoloko10/gallery" target="_blank">
+                    <img src="images/objetos-portfolio/devianartcomicone.png" alt="devianart" title="Devianart by Minato">
+                </a>
+                <a class="linkext-portfolio" href="https://www.instagram.com/eumimnos/" target="_blank">
+                    <img src="images/objetos-portfolio/instagramcomicone.png" alt="instagram" title="Instagram by Minato">
+                </a>
+            </div>
+        </div>
+        <h4 class="titulo-conteudo">Games</h4>
+        <span class="desc">
+            Links para alguns games simples que desenvolvi com software Construct 2, uma engine
+            simples cujo não exige conhecimento em uma linguagem de programação
+        </span>
+        <div class="container">
+            <div class="games">
+                <a class="linkext-portfolio game1" href="https://esquecidosnaetec.netlify.app" target="_blank">
+                    <img src="images/objetos-portfolio/EsquecidosNaEtecGame.png" alt="Esquecidos na Etec by Minato" title="Esquecidos na Etec by Minato">
+                </a>
+                <a class="linkext-portfolio game2" href="https://hquebracranio.netlify.app" target="_blank">
+                    <img src="images/objetos-portfolio/HQuebraCranioGame.png" alt="HQuebraCranio by Minato" title="HQuebraCranio by Minato">
+                </a>
+                <a class="linkext-portfolio game3" href="https://edsonhatsune.netlify.app" target="_blank">
+                    <img src="images/objetos-portfolio/HatsuneGame.png" alt="Hatsune by Minato" title="Hatsune by Minato">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seocao do Sobre Mim (About)  -->
+    <a class="anchor" id="about"></a>
+    <section class="section-about">
+        <div class="container">
+            <h3>Sobre Mim</h3>
+            <span class="separador">━━━━━━ ★ ━━━━━━</span>
+            <article class="content">
+                <p>
+                    Esta é uma pequena apresentação sobre mim, este site foi feito baseado em um design
+                    de layout ja existente, onde ajustei para minhas especificações com a intenção de
+                    montar um portfólio para meus projetos. Este site também pode ser visualizado no GitHub junto
+                    a outros projetos. Este site foi completamente desenvolvido em HTML e CSS.
+                </p>
+            </article>
+            <article class="content">
+                <p>
+                    Meu nome é Edson, tenho 22 anos e posso dizer que meu objetivo é crescer na área de
+                    desenvolvimento para que um dia eu possa trabalhar com desenvolvimento de jogos, pois
+                    sempre gostei de jogar e na minha opinião games são histórias fantásticas que quando bem feitas,
+                    valem cada segundo da experiência. É como ver um filme ou ler um livro, se a história por trás
+                    for boa, é um ótimo entretenimento. Abaixo segue um botão para meu canal no youtube
+                </p>
+            </article>
+            <a class="btn" href="https://www.youtube.com/channel/UCYHeRrNhg3wwKBdO9PYal3g" target="_blank">
+                <button class="btn-about">
+                    Meu Youtube
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- Seocao de Contato (Contact)  -->
+    <a class="anchor" id="contact"></a>
+    <section class="section-contact">
+        <div class="container">
+            <h3>Contato</h3>
+            <span class="separador">━━━━━━ ★ ━━━━━━</span>
+            <form>
+                <span>ATENÇÃO, Esta parte é apenas um teste, nada será enviado ou recebido</span>
+                <label for="email_remetente">E-mail
+                </label>
+                <input type="email" id="email_remetente">
+                <label for="tel_remetente">Telefone / Celular
+                </label>
+                <input type="tel" id="tel_remetente">
+                <label for="mensagem_remetente">Mensagem
+                </label>
+                <textarea id="mensagem_remetente"></textarea>
+                <div class="btn-send">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Seocao do Rodape (Footer)  -->
+    <footer class="footer">
+        <div class="container">
+            <div class="email">
+                <h4>E-mail</h4>
+                <span>xarutoloko11@hotmail.com</span>
+            </div>
+            <div class="redessociais">
+                <h4>Redes Sociais</h4>
+                <div class="iconesredes">
+                    <a href="https://www.instagram.com/eumimnos/">
+                        <img src="icones/Instagram.png">
+                    </a>
+                    <a href="">
+                        <img src="icones/Linkedin.png">
+                    </a>
+                    <a href="">
+                        <img src="icones/Twitter.png">
+                    </a>
+                    <a href="">
+                        <img src="icones/Youtube.png">
+                    </a>
+                </div>
+            </div>
+            <div class="direitos">
+                <h4>Rodapé</h4>
+                <span>*****</span>
+            </div>
+        </div>
+        <span class="direitos"></span>
+    </footer>
+</body>
+</html>

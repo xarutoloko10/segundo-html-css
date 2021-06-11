@@ -1,0 +1,70 @@
+/* Definicoes da secao myportfolio */
+.section-portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    background-color: #2e2e30;
+    align-items: center;
+    padding: 25px 0;
+}
+
+/* Definicoes do titulo da section (MYPORTFOLIO) */
+.section-portfolio .titulo-section {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Separacao entre titulo e conteudos da secao (━━━━━━ ★ ━━━━━━) */
+.section-portfolio .separador {
+    font-size: 25px;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+/* Definicoes de titulo para os conteudos (titulo-conteudo) */
+.section-portfolio > .titulo-conteudo {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* Ajuste dos textos de descricao dos conteudos (desc) */
+.section-portfolio > .desc {
+    text-align: justify;
+    font-size: 25px;
+    padding: 15px 100px 15px 100px;
+}
+
+/* Ajuste nos containers de conteudo do secao (Sites de projetos e sites dos jogos) */
+.section-portfolio .container {
+    width: 70%;
+}
+
+/* Definicoes dos itens no conteudo de projetos e games (redestrabalhos e games) */
+.section-portfolio > .container .linkext-portfolio {
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* Ajuste nos itens do conteudo de projetos e games (redestrabalhos e games) */
+.section-portfolio > .container > .redestrabalhos, .games {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+/* Definindo ajustes para as imagens no conteudo de projetos e games (redestrabalhos e games) */
+.section-portfolio > .container img {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+

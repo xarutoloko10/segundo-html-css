@@ -1,0 +1,50 @@
+/* Definição de Cor do Menu, Ajuste e Selecao da Fonte */
+.nav {
+    background-color: #18191c;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+/* Separacao e ajuste entre titulo do site e menu */
+.nav > .container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 80%;
+}
+
+/* Menu de Opcoes (portfolio,sobre,contato), alinhamento */
+.nav > .container > .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 100%;
+    width: 300px;
+}
+
+/* Ajustes dentro das opcoes do menu */
+.nav > .container a {
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    padding: 30px 15px;
+}
+
+/* Selecao do Menu (Mudanca de background do botão (:hover)) */
+.nav >.container > .menu li a:hover {
+    background-color: #383a42;
+}
+
+/* Definicao da ancora para os destinos do menu (Anchor) */
+.anchor:target::before {
+    content: "";
+    display: block;
+    height: 60px;
+    margin: -60px 0 0;
+}

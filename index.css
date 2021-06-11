@@ -1,0 +1,35 @@
+/* Fonte Importada para usar no site */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* CSS da Barra de Navegacao (nav) -> (navmenu) */
+@import 'css/navmenu.css';
+
+/* CSS da Parte em Destaque (section-spotlight) -> (spotlight) */
+@import 'css/section-spotlight.css';
+
+/* CSS da Parte de Portfolio (section-portfolio) -> (portfolio) */
+@import 'css/section-portfolio.css';
+
+/* CSS da Parte de SobreMim (section-about) -> (about) */
+@import 'css/section-about.css';
+
+/* CSS da Parte de Contato (section-contact) -> (contact) */
+@import 'css/section-contact.css';
+
+/* CSS da Parte de RodaPe (footer) -> (footer) */
+@import 'css/footer.css';
+
+/* CSS da Parte de Destaque do Site (animation-spotlight) -> (animation-spotlight) */
+@import 'css/animations-spotlight.css';
+
+/* Definicao padrão para o site inteiro */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Aplicacao da fonte no site inteiro */
+html{
+    font-family: 'Montserrat', sans-serif;
+}

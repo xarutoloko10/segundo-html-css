@@ -1,0 +1,71 @@
+footer{
+    display: flex;
+    background-color: #18191c;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ajustes no container do rodape */
+footer > .container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    width: 90%;
+}
+
+/* Ajuste em todos os titulos do rodape */
+footer > .container h4 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+/* Ajuste em todos os conteudos de texto do rodape */
+footer > .container span {
+    padding-top: 8px;
+    color: white;
+    font-size: 20px ;
+}
+
+/* Ajuste na box Direitos */
+footer > .container > .direitos {
+    width: 25%;
+}
+
+/* Ajuste na box E-mail */
+footer > .container > .email {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+}
+
+/* Ajuste na box Redes Sociais */
+footer > .container > .redessociais {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+/* Ajuste dentro da caixa de imagens das redes sociais */
+footer > .container > .redessociais > .iconesredes {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+}
+
+/* Definicoes das imagens das redes sociais */
+footer > .container > .redessociais > .iconesredes img {
+    height: 65px;
+    border-radius: 5px;
+}
+
+/* Definicoes de quando o mouse estiver em cima do icone das redes sociais */
+footer > .container > .redessociais > .iconesredes img:hover {
+    background-color: white;
+}

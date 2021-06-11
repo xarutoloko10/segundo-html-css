@@ -1,0 +1,62 @@
+/* Definicoes do section ABOUT (SobreMim) */
+.section-about {
+    display: flex;
+    color: white;
+    background-color: #18191c;
+    width: 100%;
+    align-items: center;
+    padding: 25px 0;
+}
+
+/* Ajustes no container do about */
+.section-about > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Definicoes do titulo da section (ABOUT) */
+.section-about > .container h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Separacao entre titulo e conteudos da secao (━━━━━━ ★ ━━━━━━) */
+.section-about > .container .separador {
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+/* Definicoes do conteudo dentro do Sobre Mim */
+.section-about > .container .content{
+    justify-content: center;
+    padding: 15px 100px 15px 100px;
+}
+
+/* Formatacao do texto dentro do conteudo */
+.section-about > .container p {
+    text-align: justify;
+    font-size: 25px;
+}
+
+.section-about > .container > .btn {
+    align-items: center;
+}
+/* Formatacao do texto dentro do botao */
+.section-about > .container > .btn .btn-about {
+    border: 1px solid #383a42;
+    color: white;
+    background-color: #18191c;
+    font-size: 30px;
+    padding: 20px 10px;
+}
+
+/* Alteracao visual do botao no passar do mouse (:hover) */
+
+.section-about > .container > .btn .btn-about:hover {
+    color: #18191c;
+    background-color: white;
+}

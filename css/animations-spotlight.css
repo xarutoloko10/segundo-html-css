@@ -1,0 +1,15 @@
+
+/* Definicoes dos parametros para a animacao */
+.section-spotlight {
+    animation-name: teste;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+/* Animacao basica para troca de cor de fundo */
+@keyframes teste {
+    from{background-color: #18191c;}
+    to{background-color: dimgray;}
+}
